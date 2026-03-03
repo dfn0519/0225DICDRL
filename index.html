@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wang Chin Yen | Portfolio</title>
+      <meta name="description" content="Personal profile and showcase for Wang Chin Yen. Minimalist, premium design inspired by editorial layouts.">
+      <link rel="stylesheet" href="index.css">
+  </head>
+<body>
+      <header>
+                <div class="logo-box">WANG</div>div>
+                <div class="time-display" id="live-clock">2026-03-03 / 22:55:42</div>div>
+      </header>
+      <main>
+                <section class="section hero">
+                              <div class="hero-content">
+                                                <div class="subheadline">Personal Portfolio</div>div>
+                                                <h1>Wang <br> Chin <br> Yen</h1>
+                                              <p style="font-size: 1.5rem; letter-spacing: 0.1em; max-width: 600px; font-weight: 500; margin-bottom: 50px;">Modern, professional, and sophisticated digital presence. High-end editorial aesthetic with a focus on bold minimalism.</p>p>
+                                              <svg viewBox="0 0 100 100" class="sunburst">
+                                                                  <path d="M50 0 L55 30 L85 20 L70 45 L100 50 L70 55 L85 80 L55 70 L50 100 L45 70 L15 80 L30 55 L0 50 L30 45 L15 20 L45 30 Z" />
+                                              </svg>svg>
+                              </div>div>
+                            <div class="large-digit">1</div>div>
+                </section>section>
+              <section class="section dark">
+                          <div class="hero-content" style="align-self: flex-end; text-align: right;">
+                                          <div class="subheadline">Creative Vision</div>div>
+                                          <h1>Innovation <br> Meets <br> Clarity</h1>
+                                          <p style="font-size: 1.25rem; font-weight: 400; max-width: 500px; margin-left: auto;">We move forward with precision, intentionality, and a commitment to excellence in every detail. Bold typography meets expansive whitespace to create a truly premium experience.</p>p>
+                                          <div style="margin-top: 50px; font-size: 8rem; font-weight: 900; line-height: 1; color: var(--accent);">2026</div>div>
+                          </div>div>
+                          <div class="large-digit">2</div>div>
+              </section>section>
+              <section class="section">
+                          <div class="hero-content">
+                                          <div class="subheadline">Connect</div>div>
+                                          <h1>Let's <br> Build <br> Together</h1>
+                                          <div style="display: flex; gap: 40px; margin-top: 50px; text-transform: uppercase; font-weight: 700; cursor: pointer;">
+                                                              <div style="border-bottom: 3px solid var(--text-dark); padding-bottom: 5px;">LinkedIn</div>div>
+                                                              <div style="border-bottom: 3px solid var(--text-dark); padding-bottom: 5px;">Twitter</div>div>
+                                                              <div style="border-bottom: 3px solid var(--text-dark); padding-bottom: 5px;">Instagram</div>div>
+                                          </div>div>
+                          </div>div>
+                          <div class="large-digit">3</div>div>
+              </section>section>
+      </main>
+    <script>
+              let currentTime = new Date("2026-03-03T23:30:47+08:00");
+              const clockElement = document.getElementById('live-clock');
+              function updateClock() {
+                            currentTime.setSeconds(currentTime.getSeconds() + 1);
+                            const year = currentTime.getFullYear();
+                            const month = String(currentTime.getMonth() + 1).padStart(2, '0');
+                            const day = String(currentTime.getDate()).padStart(2, '0');
+                            const hours = String(currentTime.getHours()).padStart(2, '0');
+                            const minutes = String(currentTime.getMinutes()).padStart(2, '0');
+                            const seconds = String(currentTime.getSeconds()).padStart(2, '0');
+                            clockElement.textContent = year + "-" + month + "-" + day + " / " + hours + ":" + minutes + ":" + seconds;
+              }
+              setInterval(updateClock, 1000);
+              updateClock();
+    </script>
+</body>
+</html>html>
+
+    </script></h1></h1>
+      </main>
+      </header>
+</body></title>
+  </head>
